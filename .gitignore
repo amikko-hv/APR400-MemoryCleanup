@@ -1,5 +1,44 @@
+## Build output
 bin/
 obj/
-/packages/
+out/
+publish/
+
+## NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+!**/packages/repositories.config
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Visual Studio
+.vs/
+*.rsuser
+*.vsp
+*.vspx
+
+## Rider / JetBrains
+.idea/
+*.iml
 riderModule.iml
 /_ReSharper.Caches/
+_ReSharper*/
+
+## Logs and test results
+*.log
+*.trx
+TestResults/
+
+## Workshop runtime output (generated sample data)
+**/WorkshopData/
+
+## OS
+.DS_Store
+Thumbs.db
+

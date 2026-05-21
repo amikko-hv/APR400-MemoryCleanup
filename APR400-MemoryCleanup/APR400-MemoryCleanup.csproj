@@ -8,4 +8,11 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+        <Compile Remove="HospitalImportPipeline.cs" />
+        <Compile Remove="HospitalFileAccess.cs" />
+        <Compile Remove="NativeBuffer.cs" />
+        <Compile Remove="SampleDataGenerator.cs" />
+    </ItemGroup>
+
 </Project>
